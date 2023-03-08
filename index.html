@@ -1,54 +1,66 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML Forms</title>
-
+  <head> 
+    <style>
+      img {
+        opacity: 0.5;
+      }
+      
+      img:hover {
+        opacity: 1.0;
+      }
+      p{
+        background-color: #f0aaf7;
+        border-radius: 10px;
+      }
+      </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Explore Africa</title>
+        
     </head>
     <body>
-        <h1>HTML Forms</h1>
-        <form >
-            <label for="username"> Enter Username</label>
-            <input type="text" id="username" name="username" placeholder="Username" required> 
-            <br><br>
-            <label for="email">Enter Email</label>
-            <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
-            <br><br>
-            <label for="Password">Enter Your Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter Your Password" required>
-            <br><br>
-            <p>Select your Gender: </p>
-            <input type="radio" name ="gender" value="Male " id="option1">
-            <label for="option1">Male</label> <br>
-            <input type="radio" name ="gender" value="Female" id="option2">
-            <label for="option2"> Female</label> <br>
-            <input type="radio" name ="gender" value="Others" id="option3">
-            <label for="option3"> Others</label> <br>
-            <br><br>
-            <p>Select Your Age:</p>
-            <input type="radio" name = "age" value="0-25" id="option-1">
-            <label for="option-1">0-25</label> <br>
-            <input type="radio" name = "age" value="26-50" id="option-2">
-            <label for="option-1">26-50</label><br>
-            <input type="radio" name = "age" value="51-100" id="option-3">
-            <label for="option-1">51-100</label><br>
+      <h1 >
+        Africa My Continent</h1>
+        <h3>Visit Africa And Experience Greatness</h3>
+       <div>
+        <p > 
+            <em> Africa is renowned for its exceptional wildlife and natural beauty. <br>
+            Elephants are remarkable for their size and strength, intelligence, and<br> 
+            complex social structures.Gorillas are gentle giants found in the forests <br>
+            of Central and East Africa, and are among the closest living relatives of<br> 
+            humans. Lions, leopards, and cheetahs are known for their impressive hunting <br>
+             skills and striking beauty. African landscapes themselves are breathtakingly <br>
+              beautiful, from the vast deserts of the Sahara to the lush forests of the Congo Basin. <br>
+            Despite the many challenges facing Africa's wildlife, there is still much to celebrate <br> 
+            and appreciate about this remarkable continent. Visiting Africa's national parks and <br> 
+            wildlife reserves can help to support conservation efforts and ensure that these incredible<br>
+             animals continue to thrive for generations to come.</em> </p>
+            </div>
 
-            <br><br> <!--creating a drop down list-->
-           <label for="Question">Security Question:</label>
-           <select name="Question" id="Question">
-            <option value="q1">Where do you come from?</option>
-            <option value="q2">What is your favourite food?</option>
-            <option value="q3">Which team do you support?</option>
-           </select>
-           <br><br>
-           <label for="Answer">Security Question Answer:</label>
-           <input type="text" name="Answer" id="Answer">
-           <br><br>
-           <label for="bio">Enter Your Biography:</label><br>
-           <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter your Biography"</textarea></textarea>
-            <br><br>
-            <input type="submit" value="Submit" >
-        </form>
-    
-   
+            <h3>
+               Some of the Best National and Game reserves in Africa</h3>
+             <ul>
+                <li>Serengeti National Park, Tanzania</li> 
+                <li>Masai Mara National Reserve, Kenya</li> 
+                <li>Kruger National Park, South Africa</li>  
+               <li>Okavango Delta, Botswana</li> 
+                <li>Etosha National Park, Namibia</li> 
+                <li>Bwindi Impenetrable National Park, Uganda</li> 
+               <li>Ngorongoro Conservation Area, Tanzania</li> 
+                <li>Hwange National Park, Zimbabwe</li> 
+               <li>South Luangwa National Park, Zambia</li> 
+               <li>Chobe National Park, Botswana</li> 
+                
+             </ul>
+             <hr> 
+             <img src="images/big5.jpg" alt = "A picture of the Big Five animals in the Juggle"
+             
+             > <br>
+
+             <a href="https://youtu.be/iH5SH-Dffjg" target="_blank"> Have a look at the big Five</a> <br>
+             
+             <a href="wildlifesanctuaries.html" target="_blank"> Wildlife Sanctuaries</a>
+
+
     </body>
 </html>
