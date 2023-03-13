@@ -2,6 +2,11 @@
 <html>
   <head> 
     <style>
+      *{
+        padding: 0;
+        margin: 6px;
+        box-sizing: border-box;
+      }
       img {
         opacity: 0.5;
       }
@@ -9,14 +14,58 @@
       img:hover {
         opacity: 1.0;
       }
+      
       p{
-        background-color: #f0aaf7;
+        background-color: #f0d5a6;
         border-radius: 10px;
+        color: #5f0ee0;
       }
       h1{
         border-radius: 55px;
         border-style: dashed;
         border-color: rgb(22, 143, 70);
+      }
+      p{
+        margin: 6px;
+        
+      }
+      body {
+       background-image: url(images/sky.jpg);
+       background-position: center;
+       background-size: cover;
+       opacity: 2.0px;
+       box-sizing: border-box;
+
+      }
+      .Menu-bar {
+        background-color: #12af54;
+        text-align: center;
+        border-radius: 15px;
+      } 
+      .Menu-bar ul{
+        display: inline-flex;
+        list-style: none;
+      }
+      .Menu-bar ul li{
+        width: 120px;
+        margin: 15px;
+        padding: 15px;
+      }
+      .Menu-bar ul li a{
+        text-decoration: none;
+        color: #fff;
+      }
+      .Menu-bar ul li:hover{
+        background-color: #accbee;
+        border-radius: 33px;
+      }
+      .parks{
+        color: #0a0a0a;
+        background-color: #accbee;
+        border-radius: 18.5px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       text-align: justify;
+       list-style: none;
       }
       </style>
     <link rel="stylesheet" href="style.css">
@@ -24,27 +73,34 @@
         
     </head>
     <body>
-      <h1 >
-        Africa My Continent</h1>
+      <div class="Menu-bar">
+     <ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contacts</a></li>
+     </ul>
+
+    </div>
         <h3>Visit Africa And Experience Greatness</h3>
        <div>
         <p > 
-            <em> Africa is renowned for its exceptional wildlife and natural beauty. <br>
-            Elephants are remarkable for their size and strength, intelligence, and<br> 
-            complex social structures.Gorillas are gentle giants found in the forests <br>
-            of Central and East Africa, and are among the closest living relatives of<br> 
-            humans. Lions, leopards, and cheetahs are known for their impressive hunting <br>
-             skills and striking beauty. African landscapes themselves are breathtakingly <br>
-              beautiful, from the vast deserts of the Sahara to the lush forests of the Congo Basin. <br>
-            Despite the many challenges facing Africa's wildlife, there is still much to celebrate <br> 
-            and appreciate about this remarkable continent. Visiting Africa's national parks and <br> 
-            wildlife reserves can help to support conservation efforts and ensure that these incredible<br>
+            <em> Africa is renowned for its exceptional wildlife and natural beauty. 
+            Elephants are remarkable for their size and strength, intelligence, and
+            complex social structures.Gorillas are gentle giants found in the forests 
+            of Central and East Africa, and are among the closest living relatives of 
+            humans. Lions, leopards, and cheetahs are known for their impressive hunting 
+             skills and striking beauty. African landscapes themselves are breathtakingly 
+              beautiful, from the vast deserts of the Sahara to the lush forests of the Congo Basin. 
+            Despite the many challenges facing Africa's wildlife, there is still much to celebrate 
+            and appreciate about this remarkable continent. Visiting Africa's national parks and 
+            wildlife reserves can help to support conservation efforts and ensure that these incredible
              animals continue to thrive for generations to come.</em> </p>
             </div>
 
             <h3>
                Some of the Best National and Game reserves in Africa</h3>
-             <ul>
+             <ul class="parks">
                 <li>Serengeti National Park, Tanzania</li> 
                 <li>Masai Mara National Reserve, Kenya</li> 
                 <li>Kruger National Park, South Africa</li>  
